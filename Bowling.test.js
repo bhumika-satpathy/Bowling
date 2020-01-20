@@ -14,11 +14,11 @@ describe('The computeBowlingScore function: ',()=>{
         expect(totalScore).toBe(0);
     });
 
-    // it('should return 30',()=>{
-    //     let rollScores=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 10, 10];
-    //     let totalScore=computeBowlingScore(rollScores);
-    //     expect(totalScore).toBe(30);
-    // });
+    it('should return 30',()=>{
+        let rollScores=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 10, 10];
+        let totalScore=computeBowlingScore(rollScores);
+        expect(totalScore).toBe(30);
+    });
 
     // it('should call score function',()=>{
     //     score=jest.fn();
