@@ -20,8 +20,8 @@ describe('The computeBowlingScore function: ',()=>{
         expect(totalScore).toBe(30);
     });
 
-    it('should call score function',()=>{
-        score=jest.fn();
-        expect(score).toHaveBeenCalled();
-    })
+    // it('should call score function',()=>{
+    //     score=jest.fn();
+    //     expect(score).toHaveBeenCalled();
+    // })
 });
